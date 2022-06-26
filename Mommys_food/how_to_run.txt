@@ -1,0 +1,6 @@
+-First isntall the requirements packages
+-Like "streamlit"
+-Then run the app.py script
+-Press shift key with right click
+-Type in power shell [streamlit run "app.py"]
+-Then enjoy :) 
