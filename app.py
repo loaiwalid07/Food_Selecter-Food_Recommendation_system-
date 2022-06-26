@@ -16,6 +16,8 @@ st.set_page_config(
 @st.cache()
 def fetch_and_clean_data(file_path):
     df = pd.read_csv(file_path)
+    for i in range(0,len(df["Ingredients"])):
+        df["Ingredients"][i] =  re.sub(r'\'','',df["Ingredients"][i])
 
     # get all items
     items = set()
