@@ -8,7 +8,7 @@ from helper import embed_query
 import joblib
 
 def app(data):
-    st.title('Food From Fridge:fire:')
+    st.title("Mommy's Food:fire:")
 
     st.image('images/items_image.jpg', use_column_width=True)
 
